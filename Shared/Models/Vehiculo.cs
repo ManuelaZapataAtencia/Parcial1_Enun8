@@ -1,8 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Parcial1_Enun8v4.Data.Entidades
+namespace Parcial1_Enun8.Shared.Models
 {
-    public class Vehiculo 
+    public class Vehiculo
     {
         [Key]
         [Display(Name = "Id Vehiculo")]
